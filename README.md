@@ -44,6 +44,8 @@ LED BAR GRAPH, ademas de las conexiones necesarias.
 
 ![](circuito.jpg)
 
+![](codigo.jpg)
+
 /**
   Raspberry Pi Pico LED Bar Graph Binary Counter
 
