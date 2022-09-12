@@ -42,7 +42,7 @@ Esto puede tener varios usos, como por ejemplo, indicar que tan alta es la tempe
 Empezando mostrando esta pequeña imagen donde se muestra el circuito que se explicara mas adelante, el cual cuenta con la placa Raspberry Pi Pico y un sensor
 LED BAR GRAPH, ademas de las conexiones necesarias.
 
-
+![](circuito.jpg)
 
 /**
   Raspberry Pi Pico LED Bar Graph Binary Counter
