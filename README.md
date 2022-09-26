@@ -69,4 +69,4 @@ En la tabla a continuacion se muestran algunas de las especificaciones del senso
 * [https://www.prometec.net/led-bar/](https://www.prometec.net/led-bar/)
 * [https://peppe8o.com/using-a-10-segment-led-bar-with-raspberry-pi-and-python/](https://peppe8o.com/using-a-10-segment-led-bar-with-raspberry-pi-and-python/)
 * [https://components101.com/displays/led-bar-graph](https://components101.com/displays/led-bar-graph)
-
+* [https://www.adafruit.com/product/1815](https://www.adafruit.com/product/1815)
