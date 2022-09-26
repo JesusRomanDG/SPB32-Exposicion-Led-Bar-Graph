@@ -66,6 +66,8 @@ En la tabla a continuacion se muestran algunas de las especificaciones del senso
 ## Codigo
 
 ## Referencias
-`[1]-https://www.prometec.net/led-bar/
-`[2]-https://peppe8o.com/using-a-10-segment-led-bar-with-raspberry-pi-and-python/
-`[3]-https://components101.com/displays/led-bar-graph
+`
+[1]-https://www.prometec.net/led-bar/
+[2]-https://peppe8o.com/using-a-10-segment-led-bar-with-raspberry-pi-and-python/
+[3]-https://components101.com/displays/led-bar-graph
+`
