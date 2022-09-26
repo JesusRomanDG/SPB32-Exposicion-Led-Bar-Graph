@@ -77,6 +77,65 @@ En la tabla a continuacion se muestran algunas de las especificaciones del senso
 ![](/img/diagrama.png)
 
 ## Codigo
+```
+# Autor: Dominguez Garcia Jesus Roman
+# Usuario Github: JesusRomanDG
+# Fecha: 26 de Septiembre de 2022g
+
+# importando las librerias a utilizar
+import time
+import board
+import digitalio
+from analogio import AnalogIn
+
+# definiendo entrada analoga del potenciometro
+analog_in = AnalogIn(board.GP26)
+
+# definiedno entradas digitales de los leds del Led Bar Graph
+led1 = digitalio.DigitalInOut(board.GP15)
+led2 = digitalio.DigitalInOut(board.GP14)
+led3 = digitalio.DigitalInOut(board.GP13)
+led4 = digitalio.DigitalInOut(board.GP12)
+led5 = digitalio.DigitalInOut(board.GP11)
+led6 = digitalio.DigitalInOut(board.GP7)
+led7 = digitalio.DigitalInOut(board.GP6)
+led8 = digitalio.DigitalInOut(board.GP5)
+led9 = digitalio.DigitalInOut(board.GP4)
+led10 = digitalio.DigitalInOut(board.GP3)
+
+# metodo para obtener e imprimir el voltaje del potenciometro desde la entrada analogica
+def obtener_voltaje(pin):
+  return (pin.value / 65536) * 100
+
+# metodo para determinar que leds encender
+def determinar_Led(min, pin):
+  if(obtener_voltaje(analog_in) > min):   # si el valor del potenciometro es mayor que el minimo necesario para cierto led, entonces se encendera
+    pin.direction = digitalio.Direction.OUTPUT
+    pin.value = True  # enciende el led conectado al pin dado
+
+  else:     # si no se cumple la entrada necesaria entonces se apaga el led
+    pin.direction = digitalio.Direction.OUTPUT
+    pin.value = False # apaga el led conectado al pin dado
+
+# ciclo
+while True:
+  valorPotenciometro = obtener_voltaje(analog_in) # llama al metodo obtener_Voltaje y lo almacena en una variable
+  print(valorPotenciometro) # imprime el valor del potenciometro
+  time.sleep(0.1) # delay de 0.1 segundos
+
+# llamadas al metodo determinar_Led para encender o apagar los leds correspondientes
+  determinar_Led(0, led1)
+  determinar_Led(10, led2)
+  determinar_Led(20, led3)
+  determinar_Led(30, led4)
+  determinar_Led(40, led5)
+  determinar_Led(50, led6)
+  determinar_Led(60, led7)
+  determinar_Led(70, led8)
+  determinar_Led(80, led9)
+  determinar_Led(90, led10)
+
+```
 
 ## Referencias
 * [https://www.prometec.net/led-bar/](https://www.prometec.net/led-bar/)
