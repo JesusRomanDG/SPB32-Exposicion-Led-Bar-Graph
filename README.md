@@ -45,11 +45,10 @@ La conexión es de lo más sencilla, porque al final son simplemente 10 LEDs enc
 
 ## Esquema
 
-![](/img/LED-Bar-Graph-Pinout.png)
-
-Como se observa en la imagen, los ánodos (Positivo) de los diodos estan posicionados en una cara y los cátodos (Negativo) en la otra…
-
 La conexión de este sensor se realiza colocando una resistencia de limitación de 220Ω a cada LED y conectar los positivos a 10 puertas de nuestro microcontrolador.
+
+![](/img/LED-Bar-Graph-Pinout.png)
+> Como se observa en la imagen, los ánodos (Positivo) de los diodos estan posicionados en una cara y los cátodos (Negativo) en la otra…
 
 La única dificultad, es que en algunos sensores no se muestra ninguna marca indicando el pin número 1, por lo que si este es el caso, hay que probar a ver cuál es. Para ello conectad el positivo y negativo de un único LED y comprobar que se ilumina, antes de conectar el resto.
 
@@ -58,7 +57,7 @@ La única dificultad, es que en algunos sensores no se muestra ninguna marca ind
 En la anterior imagen se muestra un ejemplo de un diagrama de conexion hacia un microcontrolador.
 
 ## Especificaciones
-En la tabla a continuacion se muestran algunas de las especificaciones del sensor.
+>En la tabla a continuacion se muestran algunas de las especificaciones del sensor.
 
 | Especificaciones              | Valor                                       |
 |-------------------------------|---------------------------------------------|
