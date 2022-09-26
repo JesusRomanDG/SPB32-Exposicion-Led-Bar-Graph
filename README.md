@@ -45,7 +45,6 @@ La única dificultad, es que en algunos sensores no se muestra ninguna marca ind
 En la tabla a continuacion se muestran algunas de las especificaciones del sensor.
 
 | Corriente de funcionamiento   | 20mA                                        |
-|-------------------------------|---------------------------------------------|
 | Voltaje directo               | 2.0V a 2.2V (máximo=                        |
 | Intensidad luminosa           | 60mcd                                       |
 | Longitud de onda              | 630nm                                       |
