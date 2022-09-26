@@ -77,7 +77,7 @@ En la tabla a continuacion se muestran algunas de las especificaciones del senso
 ![](/img/diagrama.png)
 
 ## Codigo
-```circuitpython
+```python
 # Autor: Dominguez Garcia Jesus Roman
 # Usuario Github: JesusRomanDG
 # Fecha: 26 de Septiembre de 2022g
