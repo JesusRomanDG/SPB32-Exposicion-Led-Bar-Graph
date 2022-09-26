@@ -80,7 +80,7 @@ En la tabla a continuacion se muestran algunas de las especificaciones del senso
 ```python
 # Autor: Dominguez Garcia Jesus Roman
 # Usuario Github: JesusRomanDG
-# Fecha: 26 de Septiembre de 2022g
+# Fecha: 26 de Septiembre de 2022
 
 # importando las librerias a utilizar
 import time
@@ -136,6 +136,8 @@ while True:
   determinar_Led(90, led10)
 
 ```
+
+#### Link del codigo y el diagrama: [https://wokwi.com/projects/343854896568599123](https://wokwi.com/projects/343854896568599123)
 
 ## Referencias
 * [https://www.prometec.net/led-bar/](https://www.prometec.net/led-bar/)
