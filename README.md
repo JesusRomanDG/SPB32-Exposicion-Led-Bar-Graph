@@ -72,6 +72,9 @@ En la tabla a continuacion se muestran algunas de las especificaciones del senso
 | Colores disponibles           | Rojo, Verde, Azul, Amarillo, Naranja, Ámbar |
 
 ## Diagrama
+> En la siguiente imagen se muestran las conexiones realizadas entre los componentes y la raspberry pi pico.
+
+![](/img/diagrama.png)
 
 ## Codigo
 
