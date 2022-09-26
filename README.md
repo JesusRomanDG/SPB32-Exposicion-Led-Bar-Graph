@@ -10,3 +10,13 @@ Con mucha frecuencia, vamos a querer indicar el nivel relativo de algo, bien sea
 Pero para estos casos, regularmente lo que se usa es una serie de LEDS independientes o combinaciones de ellos, por lo que se vuelve mas complicado representar el porcentaje de algo con respecto a su valor maximo.
 
 Utilizar ese sistema funciona, pero es poco práctico y aún menos eficaz como indicador, por eso resulta mas conveniente usar un LED de grafico de barras (LED BAR GRAPH). Este sensor es una serie de LEDs encapsulados en un único chip, listo para utilizarse en los ejemplos mencionados antes. Ademas, este sensor es muy utilizado en diversos equipos, por lo que es muy posible que identifiques alguno en un dispositivo electronico.
+
+Estos sensores son pequeños, baratos y muy eficaces a la hora de mostrar este tipo de señales en porcentaje que se mencionaron antes, y además están diseñados para poder parpadear, y además están disponibles en varios colores.
+
+La conexión es de lo más sencilla, porque al final son simplemente 10 LEDs encapsulados en barritas paralelas, pero se manejan exactamente igual que un LED normal.
+
+## Esquema
+Como se observa en la imagen, los ánodos (Positivo) de los diodos estan posicionados en una cara y los cátodos (Negativo) en la otra…
+
+La conexión de este sensor se realiza colocando una resistencia de limitación de 220Ω a cada LED y conectar los positivos a 10 puertas de nuestro microcontrolador.
+
