@@ -53,11 +53,10 @@ La conexión de este sensor se realiza colocando una resistencia de limitación 
 La única dificultad, es que en algunos sensores no se muestra ninguna marca indicando el pin número 1, por lo que si este es el caso, hay que probar a ver cuál es. Para ello conectad el positivo y negativo de un único LED y comprobar que se ilumina, antes de conectar el resto.
 
 ![](/img/LED-Bar-Graph-Connection-with-Micro-controller.png)
-
-En la anterior imagen se muestra un ejemplo de un diagrama de conexion hacia un microcontrolador.
+> En la anterior imagen se muestra un ejemplo de un diagrama de conexion hacia un microcontrolador.
 
 ## Especificaciones
->En la tabla a continuacion se muestran algunas de las especificaciones del sensor.
+En la tabla a continuacion se muestran algunas de las especificaciones del sensor.
 
 | Especificaciones              | Valor                                       |
 |-------------------------------|---------------------------------------------|
