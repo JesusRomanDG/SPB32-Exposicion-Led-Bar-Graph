@@ -91,7 +91,7 @@ from analogio import AnalogIn
 # definiendo entrada analoga del potenciometro
 analog_in = AnalogIn(board.GP26)
 
-# definiedno entradas digitales de los leds del Led Bar Graph
+# definiendo entradas digitales de los leds del Led Bar Graph
 led1 = digitalio.DigitalInOut(board.GP15)
 led2 = digitalio.DigitalInOut(board.GP14)
 led3 = digitalio.DigitalInOut(board.GP13)
