@@ -13,6 +13,11 @@ Utilizar ese sistema funciona, pero es poco práctico y aún menos eficaz como i
 
 ## Sobre el sensor
 
+![](/img/1815-00/jpg)
+![](/img/1815-01/jpg)
+![](/img/1815-02/jpg)
+![](/img/1815-03/jpg)
+
 Este sensor es una serie de LEDs encapsulados en un único chip, listo para utilizarse en los ejemplos mencionados antes. Ademas, este sensor es muy utilizado en diversos equipos, por lo que es muy posible que identifiques alguno en un dispositivo electronico.
 
 Estos sensores son pequeños, baratos y muy eficaces a la hora de mostrar este tipo de señales en porcentaje que se mencionaron antes, y además están diseñados para poder parpadear, y además están disponibles en varios colores.
@@ -39,11 +44,18 @@ La conexión es de lo más sencilla, porque al final son simplemente 10 LEDs enc
 * Amplio ángulo de visión
 
 ## Esquema
+
+![](LED-Bar-Graph-Pinout.png)
+
 Como se observa en la imagen, los ánodos (Positivo) de los diodos estan posicionados en una cara y los cátodos (Negativo) en la otra…
 
 La conexión de este sensor se realiza colocando una resistencia de limitación de 220Ω a cada LED y conectar los positivos a 10 puertas de nuestro microcontrolador.
 
 La única dificultad, es que en algunos sensores no se muestra ninguna marca indicando el pin número 1, por lo que si este es el caso, hay que probar a ver cuál es. Para ello conectad el positivo y negativo de un único LED y comprobar que se ilumina, antes de conectar el resto.
+
+![](LED-Bar-Graph-Connection-with-Micro-controller.png)
+
+En la anterior imagen se muestra un ejemplo de un diagrama de conexion hacia un microcontrolador.
 
 ## Especificaciones
 En la tabla a continuacion se muestran algunas de las especificaciones del sensor.
