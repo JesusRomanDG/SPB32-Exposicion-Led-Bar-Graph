@@ -13,10 +13,10 @@ Utilizar ese sistema funciona, pero es poco práctico y aún menos eficaz como i
 
 ## Sobre el sensor
 
-![](/img/1815-00/jpg)
-![](/img/1815-01/jpg)
-![](/img/1815-02/jpg)
-![](/img/1815-03/jpg)
+![](/img/1815-00.jpg)
+![](/img/1815-01.jpg)
+![](/img/1815-02.jpg)
+![](/img/1815-03.jpg)
 
 Este sensor es una serie de LEDs encapsulados en un único chip, listo para utilizarse en los ejemplos mencionados antes. Ademas, este sensor es muy utilizado en diversos equipos, por lo que es muy posible que identifiques alguno en un dispositivo electronico.
 
