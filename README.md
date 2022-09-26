@@ -20,3 +20,12 @@ Como se observa en la imagen, los ánodos (Positivo) de los diodos estan posicio
 
 La conexión de este sensor se realiza colocando una resistencia de limitación de 220Ω a cada LED y conectar los positivos a 10 puertas de nuestro microcontrolador.
 
+La única dificultad, es que en algunos sensores no se muestra ninguna marca indicando el pin número 1, por lo que si este es el caso, hay que probar a ver cuál es. Para ello conectad el positivo y negativo de un único LED y comprobar que se ilumina, antes de conectar el resto.
+
+## Especificaciones
+
+## Diagrama
+
+## Codigo
+
+## Referencias
