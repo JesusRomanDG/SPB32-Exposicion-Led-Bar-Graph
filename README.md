@@ -44,6 +44,15 @@ La única dificultad, es que en algunos sensores no se muestra ninguna marca ind
 ## Especificaciones
 En la tabla a continuacion se muestran algunas de las especificaciones del sensor.
 
+| Corriente de funcionamiento   | 20mA                                        |
+|-------------------------------|---------------------------------------------|
+| Voltaje directo               | 2.0V a 2.2V (máximo=                        |
+| Intensidad luminosa           | 60mcd                                       |
+| Longitud de onda              | 630nm                                       |
+| Temperatura de funcionamiento | -25℃ a 85℃                                  |
+| Temperatura de almacenamiento | -30℃ a 85℃                                  |
+| Temperatura de soldadura      | 260℃ durante 5 segundos                     |
+| Colores disponibles           | Rojo, Verde, Azul, Amarillo, Naranja, Ámbar |
 
 ## Diagrama
 
