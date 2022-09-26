@@ -4,8 +4,8 @@
 ## Autor: Jesus Roman Dominguez Garcia
 #### Presentacion realizara para la materia **SISTEMAS PROGRAMABLES** de la carrera de **INGENIERIA EN SISTEMAS COMPUTACIONALES**.
 
-## Introduccion
-Con mucha frecuencia, vamos a querer indicar el nivel relativo de algo, bien sea sobre el valor de un potenciómetro, de un sensor de luz,  de un sensor de temperatura, o de cualquier otra variable.
+## Sobre el sensor
+Con mucha frecuencia, vamos a querer indicar el nivel relativo de algo, bien sea sobre el valor de un potenciómetro, de un sensor de luz,  de un sensor de temperatura, tanque de agua, carga de la batería, fuerza de la señal, o de cualquier otra variable, etc.
 
 Pero para estos casos, regularmente lo que se usa es una serie de LEDS independientes o combinaciones de ellos, por lo que se vuelve mas complicado representar el porcentaje de algo con respecto a su valor maximo.
 
@@ -15,6 +15,25 @@ Estos sensores son pequeños, baratos y muy eficaces a la hora de mostrar este t
 
 La conexión es de lo más sencilla, porque al final son simplemente 10 LEDs encapsulados en barritas paralelas, pero se manejan exactamente igual que un LED normal.
 
+#### Aplicaciones
+* Controles industriales
+* Instrumentación
+* Equipo de oficina
+* Periféricos de computadora
+* Productos de consumo
+* Visualización de mensajes en movimiento
+* Pantalla digital
+* Tableros de puntuación
+
+#### Caracteristicas
+* 10 LEDs con control individual
+* Alto brillo
+* Alta intensidad
+* Precio económico
+* Tablero de pruebas o tablero Perf amigable
+* Cumple con RoHS
+* Amplio ángulo de visión
+
 ## Esquema
 Como se observa en la imagen, los ánodos (Positivo) de los diodos estan posicionados en una cara y los cátodos (Negativo) en la otra…
 
@@ -23,6 +42,8 @@ La conexión de este sensor se realiza colocando una resistencia de limitación 
 La única dificultad, es que en algunos sensores no se muestra ninguna marca indicando el pin número 1, por lo que si este es el caso, hay que probar a ver cuál es. Para ello conectad el positivo y negativo de un único LED y comprobar que se ilumina, antes de conectar el resto.
 
 ## Especificaciones
+En la tabla a continuacion se muestran algunas de las especificaciones del sensor.
+
 
 ## Diagrama
 
